@@ -28,6 +28,8 @@ function day02(input: any[]) {
     const chaine = e[2];
     if (chaine[first - 1] === letter && chaine[last - 1] != letter) {
       acceptable += 1;
+    } else if (chaine[first - 1] != letter && chaine[last - 1] === letter) {
+      acceptable += 1;
     }
   }
   return acceptable;
