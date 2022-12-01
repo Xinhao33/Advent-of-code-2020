@@ -9,7 +9,8 @@
     "format:write": "prettier --write .",
     "index": "index.ts",
     "start": "ts-node ./src/index.ts",
-    "day2": "ts-node ./src/day2.ts"
+    "day2": "ts-node ./src/day2.ts",
+    "day3": "ts-node ./src/day3.ts"
   },
   "author": "xinhao",
   "license": "ISC",
